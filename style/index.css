@@ -1,0 +1,55 @@
+*{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+    font-family: "Arsenal", sans-serif;
+}
+
+.menu {
+    height: 100px;
+    background-color: #112244;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-right: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+
+li :hover {
+    color: #FF7B00;
+    border-bottom: 3px solid #FF7B00;
+    padding-bottom: 20px;
+}
+
+.menu img {
+    height: 50%;
+    margin-left: 12%;
+    margin-right: 7%;
+}
+
+#atual {
+    color: #FF7B00;
+}
+
+.wallpaper img {
+    width: 100%;
+    z-index: 10;
+}
+
+.wallpaper p {
+    z-index: 999;
+}
