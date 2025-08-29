@@ -64,17 +64,17 @@ li :hover {
 
 .buttons {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 10%;
     display: flex;
     gap: 20px;
 }
 
 .button {
-    background: orange;
+    background: #FF7B00;
     color: #112244;
     padding: 12px 24px;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
@@ -82,10 +82,39 @@ li :hover {
 
 .button:hover {
     background: #112244;
-    color: #FF7B00;
+    color: #ffffff;
+}
+
+.candidato {
+    display: flex;
 }
 
 .candidato img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.infos {
+    margin: 3%;
+    margin-right: 15%;
+}
+
+.infos h3 {
+    color: #FF7B00;
+}
+
+.infos h1 {
+    color: #112244;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.infos p {
+    font-size: 1.5vw;
+    color: #112244;
+    line-height: 1.5;
 }
