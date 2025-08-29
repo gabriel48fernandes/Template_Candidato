@@ -45,11 +45,41 @@ li :hover {
     color: #FF7B00;
 }
 
+.wallpaper {
+    position: relative;
+}
+
 .wallpaper img {
     width: 100%;
-    z-index: 10;
 }
 
 .wallpaper p {
-    z-index: 999;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    display: flex;         /* coloca os botões lado a lado */
+    gap: 20px;             /* espaço entre eles */
+}
+
+.button {
+    background: orange;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: darkorange; /* efeito hover */
 }
