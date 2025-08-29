@@ -66,13 +66,13 @@ li :hover {
     position: absolute;
     bottom: 20%;
     left: 10%;
-    display: flex;         /* coloca os botões lado a lado */
-    gap: 20px;             /* espaço entre eles */
+    display: flex;
+    gap: 20px;
 }
 
 .button {
     background: orange;
-    color: white;
+    color: #112244;
     padding: 12px 24px;
     border-radius: 8px;
     cursor: pointer;
@@ -81,5 +81,11 @@ li :hover {
 }
 
 .button:hover {
-    background: darkorange; /* efeito hover */
+    background: #112244;
+    color: #FF7B00;
+}
+
+.candidato img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
