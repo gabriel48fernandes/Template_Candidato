@@ -170,3 +170,29 @@ details p, details div {
   background-color: #fffaf5;
   color: #000000;
 }
+
+.valores {
+    background-color: #112244;
+    margin-top: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.valores h3 {
+    color: #FF7B00;
+    padding-bottom: 2%;
+}
+
+.valores h1 {
+    color: #ffffff;
+    font-size: 2.5vw;
+    padding-bottom: 2%;
+}
+
+.valores p {
+    color: #ffffff;
+    width: 80%;
+    font-size: 1.5vw;
+    margin-left: 10%;
+    line-height: 1.5;
+}
