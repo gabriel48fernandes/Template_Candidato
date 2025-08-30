@@ -37,8 +37,8 @@ li :hover {
 
 .menu img {
     height: 50%;
-    margin-left: 12%;
-    margin-right: 7%;
+    margin-left: 10%;
+    margin-right: 15%;
 }
 
 #atual {
@@ -94,27 +94,79 @@ li :hover {
     border-top-right-radius: 10px;
     width: 25%;
     margin-top: 3%;
-    margin-left: 12%;
+    margin-left: 10%;
 }
 
 .infos {
     margin: 3%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
-.infos h3 {
+.infos h3, .faixa_esquerda h3 {
     color: #FF7B00;
 }
 
-.infos h1 {
+.infos h1, .faixa_esquerda h1 {
     color: #112244;
     font-weight: 700;
     font-size: 2vw;
     margin-bottom: 2%;
 }
 
-.infos p {
+.infos p, .faixa_esquerda p {
     font-size: 1.5vw;
     color: #112244;
     line-height: 1.5;
+}
+
+.trajetoria {
+    display: flex;
+}
+
+.faixa_esquerda{
+    width: 45%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+
+.accordeons {
+    width: 55%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+details {
+  width: 100%; 
+  margin: 3%;
+  border: 2px solid #FF7B00;
+  border-radius: 8px;
+  background-color: #ff7b0035;
+  overflow: hidden;
+}
+
+summary {
+  cursor: pointer;
+  padding: 12px;
+  background-color: #FF7B00;
+  color: #112244;
+  font-weight: bold;
+  border-bottom: 1px solid #FF7B00;
+}
+
+summary:hover {
+  background-color: #112244;
+  color: #ffffff;
+  border-color: #112244;
+}
+
+details[open] summary {
+  border-bottom: 2px solid white;
+}
+
+details p, details div {
+  padding: 12px;
+  background-color: #fffaf5;
+  color: #000000;
 }
