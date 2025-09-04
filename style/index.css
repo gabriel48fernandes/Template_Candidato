@@ -158,14 +158,9 @@ summary {
 summary:hover {
   background-color: #112244;
   color: #ffffff;
-  border-color: #112244;
 }
 
-details[open] summary {
-  border-bottom: 2px solid white;
-}
-
-details p, details div {
+details p{
   padding: 12px;
   background-color: #fffaf5;
   color: #000000;
