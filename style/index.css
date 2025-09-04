@@ -196,19 +196,26 @@ details p{
 
 .cards {
     display: flex;
-    flex-wrap: 3;
+    flex-wrap: wrap;
     width: 80%;
-    margin-top: 3%;
+    margin: 3% auto;
     gap: 3%;
 }
 
-#card {
-    width: 33.33%;
+.card { 
+    flex: 1 1 calc(33.33% - 3%);
     background-color: #ffffff;
     border-radius: 8px;
     text-align: left;
-    align-items: left;
     padding: 1.5%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+.cards :hover {
+    background-color: #ffcc00;
+    transition: 0.3s;
+    scale: 1.05;
 }
 
 #card_icon {
