@@ -167,15 +167,18 @@ details p{
 }
 
 .valores {
+    display: flex;
+    flex-direction: column;
     background-color: #112244;
     margin-top: 5%;
     padding-top: 3%;
     text-align: center;
+    align-items: center;
 }
 
 .valores h3 {
     color: #FF7B00;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .valores h1 {
@@ -188,6 +191,37 @@ details p{
     color: #ffffff;
     width: 80%;
     font-size: 1.5vw;
-    margin-left: 10%;
     line-height: 1.5;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: 3;
+    width: 80%;
+    margin-top: 3%;
+    gap: 3%;
+}
+
+#card {
+    width: 33.33%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+    align-items: left;
+    padding: 1.5%;
+}
+
+#card_icon {
+    width: 10%;
+    padding-bottom: 2%;
+}
+
+#card_title {
+    color:#112244;
+    padding-bottom: 2%;
+}
+
+#card_paragraph {
+    color: #112244;
+    font-size: 1vw;
 }
