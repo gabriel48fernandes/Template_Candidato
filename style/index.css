@@ -240,5 +240,11 @@ details p{
 
 .footer_redes_sociais {
     background-color: pink;
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer_redes_sociais img {
+    width: 3%;
 }
