@@ -13,16 +13,16 @@
     align-items: center;
 }
 
-ul {
+.menu ul {
     display: flex;
     list-style: none;
 }
 
-li {
+.menu li {
     padding-right: 25%;
 }
 
-a {
+.menu a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 400;
@@ -212,12 +212,10 @@ details p{
     margin-bottom: 3%;
     max-height: 200px;
     overflow: hidden;
-    transition: max-height 2.5s ease, opacity 2.5s ease;
-
 }
 
 .cards :hover {
-    background-color: #ffcc00;
+    background-color: #FF7B00;
     transition: 0.3s;
     scale: 1.05;
 }
@@ -237,10 +235,12 @@ details p{
     font-size: 1vw;
 }
 
-.footer_links {
-    background-color: yellowgreen;
-    height: 50px;
+.line {
+    height: 10px;
+    background-color: #FF7B00;
 }
+
+
 
 .footer_social {
     text-align: center;
@@ -266,4 +266,34 @@ details p{
 
 .footer_social p {
     color: #112244;
+}
+
+.footer_links h3{
+    color: #112244;
+    font-size: 1.4vw;
+}
+
+.footer_links p, .footer_links li {
+    color: #112244;
+}
+
+.footer_links {
+    width: 80%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 10%;
+}
+
+.footer_links > div {
+    flex: 1;
+}
+
+#infos {
+    background-color: pink;
+}
+
+#contato {
+    background-color: green;
 }
