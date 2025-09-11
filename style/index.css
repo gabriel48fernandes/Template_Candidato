@@ -35,6 +35,8 @@ li :hover {
     padding-bottom: 20px;
 }
 
+
+/* CSS para o header */
 .menu img {
     height: 50%;
     margin-left: 10%;
@@ -85,6 +87,8 @@ li :hover {
     color: #ffffff;
 }
 
+
+/* CSS para a sessão o candidato */
 .candidato {
     display: flex;
 }
@@ -95,11 +99,16 @@ li :hover {
     width: 25%;
     margin-top: 3%;
     margin-left: 10%;
+
+    /* alterei aqui pra aplicar media query */
+    order: 1;
 }
 
 .infos {
     margin: 3%;
     margin-right: 10%;
+    /* alterei aqui pra aplicar media query */
+    order: 2;
 }
 
 .infos h3, .faixa_esquerda h3 {
@@ -119,6 +128,8 @@ li :hover {
     line-height: 1.5;
 }
 
+
+/* CSS para a sessão trabalho duro */
 .trajetoria {
     display: flex;
 }
@@ -128,7 +139,6 @@ li :hover {
     padding-top: 5%;
     padding-left: 10%;
 }
-
 
 .accordeons {
     width: 55%;
@@ -166,6 +176,8 @@ details p{
   color: #000000;
 }
 
+
+/* CSS para a sessão valores */
 .valores {
     display: flex;
     flex-direction: column;
@@ -241,7 +253,7 @@ details p{
 }
 
 
-
+/* CSS para o footer */
 .footer_social {
     text-align: center;
     margin-bottom: 2%;
@@ -290,10 +302,52 @@ details p{
     flex: 1;
 }
 
-#infos {
-    background-color: pink;
+
+ /* mudar ordem de elementos. Dúvida do Miguel eu acho */
+@media (max-width: 768px) {
+  .candidato {
+    flex-direction: column;
+  }
+
+  .candidato img {
+    order: 2;
+  }
+
+  .infos {
+    order: 1;
+  }
 }
 
-#contato {
-    background-color: green;
+@media (max-width: 425px) {
+    .trajetoria {
+        flex-direction: column;
+        background-color: yellow;
+    }
+
+    .faixa_esquerda{
+        width: 80%; 
+    }
+
+    .accordeons {
+        width: 80%;
+        padding-left: 7%;
+    }
+
+    .faixa_esquerda h1 {
+        font-size: 3.5vw;
+    }
+
+    .faixa_esquerda p {
+        font-size: 2.5vw;
+    }
+
+    summary {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    details p{
+        padding: 8px;
+        font-size: 12px;
+    }
 }
