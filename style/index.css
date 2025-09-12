@@ -6,16 +6,32 @@
     font-family: "Arsenal", sans-serif;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
 .menu {
     height: 100px;
     background-color: #112244;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 1000;
 }
 
 .menu ul {
     display: flex;
     list-style: none;
+    z-index: 999;
 }
 
 .menu li {
@@ -53,6 +69,9 @@ li :hover {
 
 .wallpaper img {
     width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
 }
 
 .wallpaper p {
@@ -338,6 +357,40 @@ details p{
 }
 
 @media (max-width: 425px) {
+    .hamburger {
+        display: block; /* mostra o botão */
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        background-color: #112244;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li {
+        padding: 20px 0;
+    }
+
+    .menu a {
+        font-size: 5vw;
+    }
+
+
+    #menu-toggle:checked + .hamburger + ul {
+        display: flex;
+    }
+
+
+
     .button {
         padding: 8px 16px;
         font-size: 8px;
@@ -345,7 +398,6 @@ details p{
 
     .trajetoria {
         flex-direction: column;
-        background-color: yellow;
     }
 
     .faixa_esquerda{
