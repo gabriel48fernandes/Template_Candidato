@@ -5,11 +5,11 @@
 	margin-right: 0px;
     font-family: "Arsenal", sans-serif;
 }
-
+ /* aqui */
 #menu-toggle {
     display: none;
 }
-
+ /* aqui */
 .hamburger {
     display: none;
     font-size: 24px;
@@ -25,13 +25,13 @@
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 1000;
+    z-index: 1000;  /* aqui */
 }
 
 .menu ul {
     display: flex;
     list-style: none;
-    z-index: 999;
+    z-index: 999;  /* aqui */
 }
 
 .menu li {
@@ -358,7 +358,7 @@ details p{
 
 @media (max-width: 425px) {
     .hamburger {
-        display: block; /* mostra o botão */
+        display: block;  /* aqui */
     }
 
     .menu {
@@ -384,19 +384,16 @@ details p{
         font-size: 5vw;
     }
 
-
     #menu-toggle:checked + .hamburger + ul {
         display: flex;
     }
-
-
 
     .button {
         padding: 8px 16px;
         font-size: 8px;
     }
 
-    .trajetoria {
+    .trajetoria, .candidato {
         flex-direction: column;
     }
 
