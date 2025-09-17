@@ -5,11 +5,11 @@
 	margin-right: 0px;
     font-family: "Arsenal", sans-serif;
 }
- /* aqui */
+
 #menu-toggle {
     display: none;
 }
- /* aqui */
+
 .hamburger {
     display: none;
     font-size: 24px;
@@ -25,13 +25,13 @@
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 1000;  /* aqui */
+    z-index: 1000;
 }
 
 .menu ul {
     display: flex;
     list-style: none;
-    z-index: 999;  /* aqui */
+    z-index: 999;
 }
 
 .menu li {
@@ -51,8 +51,6 @@ li :hover {
     padding-bottom: 20px;
 }
 
-
-/* CSS para o header */
 .menu img {
     height: 50%;
     margin-left: 10%;
@@ -63,6 +61,7 @@ li :hover {
     color: #FF7B00;
 }
 
+/* CSS para o header */
 .wallpaper {
     position: relative;
 }
