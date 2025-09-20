@@ -62,22 +62,26 @@ li :hover {
 }
 
  .news{
-    display: flex;
     width: 80%;
-    margin: 3% auto;
-    gap: 3%;
+    margin-left: 10%;
+    margin-top: 3%;
 }
 
-.news1 {
-    background-color: #ffffff;
+.bloco3 {
+    display: flex;
+    gap: 30px;
+background-color: #FF7B00;
+}
+
+.news3{
+    width: 33%;
     border-radius: 8px;
     text-align: left;
-    padding: 1.5%;
+    padding: 1%;
     box-sizing: border-box;
     margin-bottom: 3%;
-    
 }
 
-.news img{
+.news3 img {
     width: 100%;
 }
