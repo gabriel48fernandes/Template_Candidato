@@ -80,6 +80,8 @@ li :hover {
     font-size: 3vw;
     font-weight: 700;
     color: #ffffff;
+    z-index: 998;
+    text-shadow: 2px 2px 5px black;
 }
 
 .buttons {
@@ -396,7 +398,7 @@ details p{
         flex-direction: column;
     }
 
-    .faixa_esquerda{
+    .faixa_esquerda, .infos{
         width: 80%; 
     }
 
@@ -405,12 +407,12 @@ details p{
         padding-left: 7%;
     }
 
-    .faixa_esquerda h1 {
+    .faixa_esquerda h1, .infos h1 {
         font-size: 3.5vw;
     }
 
-    .faixa_esquerda p {
-        font-size: 2.5vw;
+    .faixa_esquerda p, .infos p {
+        font-size: 3vw;
     }
 
     summary {
