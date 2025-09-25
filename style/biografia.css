@@ -128,11 +128,59 @@
     padding-bottom: 3%;
 }
 
+/* sessão trajeória */
+  .trajetoria-politica {
+    background-color: #112244;
+    padding-bottom: 1%;
+    padding-top: 3%;
+  }
+
+  .trajetoria-politica h2 {
+    color: #FF7B00;
+    margin-left: 10%;
+  }
+
+  .trajetoria-politica p {
+    color: #ffffff;
+    font-size: 1.2vw;
+    margin-left: 10%;
+    width: 80%;
+    line-height: 1.8;
+
+  }
+
+/* sessão propostas */
+.propostas{
+    background-color: #112244;
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+
+
+.propostas h2 {
+    color: #FF7B00;
+    margin-left: 10%;
+}
+
+.propostas h3 {
+    color: #ffffff;
+    margin-left: 10%;
+    padding-top: 1.5%;
+}
+
+.propostas p {
+color: #ffffff;
+font-size: 1.2vw;
+margin-top: 1%;
+margin-left: 10%;
+padding-bottom: 2.5%;
+width: 80%;
+}
 
 /* sessão contato */
 .contato {
     background-color: #112244;
-        padding-top: 3%;
+    padding-top: 3%;
     padding-bottom: 3%;
 
 }
@@ -160,26 +208,34 @@
   .contato p {
     color: #ffffff;
     font-size: 1.2vw;
+    line-height: 1.8;
+
   }
 
-/* sessão trajeória */
-  .trajetoria-politica {
-    background-color: #112244;
-    padding-bottom: 3%;
-    padding-top: 3%;
-  }
-
-  .trajetoria-politica h2 {
+  /* sessão feitos e valores */
+  .feitos h2, .valores h2 {
     color: #FF7B00;
     margin-left: 10%;
+    margin-top: 3%;
   }
 
-  .trajetoria-politica p {
-    color: #ffffff;
-    font-size: 1.2vw;
-    margin-top: 1%;
-    margin-left: 10%;
+  .valores ul{
+    padding-bottom: 3%;
   }
+
+  .valores p, .valores ul {
+    margin-left: 10%;
+    font-size: 1.2vw;
+    line-height: 1.8;
+
+  }
+
+  .feitos ol {
+    margin-left: 10%;
+    font-size: 1.2vw;
+    line-height: 1.8;
+  }
+
 
 /* CSS para o footer */
 .footer_social {
