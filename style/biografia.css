@@ -61,6 +61,53 @@ li :hover {
     color: #FF7B00;
 }
 
+/* sessão candidato */
+
+.candidato {
+    display: flex;
+}
+
+.foto {
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.foto img {
+    width: 80%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.infos {
+    width: 65%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.conteudo p {
+    font-size: 1.2vw;
+}
+
+.ancoras {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.dados-gerais li {
+    font-size: 1.2vw;
+}
+
+.candidato h3 {
+    color: #FF7B00;
+}
+
+.candidato h1 {
+    color: #112244;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
 
 
 /* CSS para o footer */
