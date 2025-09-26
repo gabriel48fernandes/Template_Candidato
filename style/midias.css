@@ -76,23 +76,44 @@ li :hover {
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
+/* Player de vídeo */
+.videos {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;  
+  padding-bottom: 3%;  
+}
+
+.video-container iframe {
+  width: 50%;
+  height: 400px;
+  border-radius: 8px;
+}
+
 /* Player fixo no rodapé */
 .music-player {
   position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
-  background: #111;
-  padding: 0.5rem;
+  background: #112244ac;
+  padding: 0.5%;
   display: flex;
   justify-content: center;
   box-shadow: 0 -2px 6px rgba(0,0,0,0.4);
 }
 
 
-
-
 /* CSS para o footer */
+.line {
+    height: 10px;
+    background-color: #FF7B00;
+}
+
 .footer_social {
     text-align: center;
     margin-bottom: 2%;
