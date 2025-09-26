@@ -1,0 +1,120 @@
+*{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+    font-family: "Arsenal", sans-serif;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.menu {
+    height: 100px;
+    background-color: #112244;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    z-index: 999;
+}
+
+.menu li {
+    padding-right: 25%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+
+li :hover {
+    color: #FF7B00;
+    border-bottom: 3px solid #FF7B00;
+    padding-bottom: 20px;
+}
+
+.menu img {
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+#atual {
+    color: #FF7B00;
+}
+
+
+
+.video-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.video-container iframe {
+  width: 300px;
+  height: 170px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Player fixo no rodapé */
+.music-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #111;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.4);
+}
+
+
+
+
+/* CSS para o footer */
+.footer_social {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.footer_redes_sociais {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer_redes_sociais img {
+    width: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer_social h3 {
+    color: #112244;
+    padding-top: 2%;
+}
+
+.footer_social p {
+    color: #112244;
+}
