@@ -61,27 +61,80 @@ li :hover {
     color: #FF7B00;
 }
 
- .news{
+.news{
     width: 80%;
     margin-left: 10%;
     margin-top: 3%;
 }
 
-.bloco3 {
+.bloco1, .bloco2, .bloco3 {
     display: flex;
     gap: 30px;
-background-color: #FF7B00;
+    margin-bottom: 3%;
+}
+
+.news1 {
+    width: 100%;
+}
+
+.news1 img {
+    width: 100%;
+}
+
+.news2 {
+    width: 50%;
+}
+
+.news2 img, .news2 p{
+    width: 100%;
 }
 
 .news3{
-    width: 33%;
+    width: 33.33%;
     border-radius: 8px;
     text-align: left;
-    padding: 1%;
     box-sizing: border-box;
     margin-bottom: 3%;
 }
 
 .news3 img {
     width: 100%;
+}
+
+.news p {
+    font-size: 1.2vw;
+}
+
+
+/* footer */
+.line {
+    height: 10px;
+    background-color: #FF7B00;
+}
+
+/* CSS para o footer */
+.footer_social {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.footer_redes_sociais {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer_redes_sociais img {
+    width: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer_social h3 {
+    color: #112244;
+    padding-top: 2%;
+}
+
+.footer_social p {
+    color: #112244;
 }
