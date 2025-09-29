@@ -264,6 +264,11 @@ width: 80%;
     color: #112244;
 }
 
+.line {
+    height: 10px;
+    background-color: #FF7B00;
+}
+
 
 @media (max-width: 1024px) {
     .menu {
